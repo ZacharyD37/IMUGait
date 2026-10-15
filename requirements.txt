@@ -1,0 +1,7 @@
+numpy==1.26.4
+pandas==1.5.3
+scikit-learn==1.6.1
+imbalanced-learn==0.13.0
+scipy==1.16.0
+torch==2.12.0
+python_speech_features==0.6

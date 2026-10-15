@@ -1,0 +1,45 @@
+# ===============================
+# Python general
+# ===============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.swp
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.iml
+
+# Local assistant / tool files
+.claude/
+CLAUDE.md
+.ipynb_checkpoints/
+
+# ===============================
+# Data and local-only folders (DO NOT PUSH)
+# ===============================
+# Storage/ holds all data (raw, intermediate, and results); none of it is
+# published. Plot/ holds local figure scripts and is not part of this repo.
+/Storage/
+/Plot/
+
+# Generated image outputs
+*.jpeg
+*.jpg
+*.png
+*.pdf
+
+# ===============================
+# OS files
+# ===============================
+.DS_Store
+Thumbs.db
